@@ -1,0 +1,23 @@
+{
+    "name": "expose-sql-methods",
+    "author": {
+        "email": "zetxx@belogradchik.biz",
+        "name": "Elin Angelov",
+        "url": "https://github.com/zetxx"
+    },
+    "dependencies": {
+      "mssql": "7.2.0"
+    },
+    "devDependencies": {
+        "tap": "*",
+        "semantic-release": "^17.0.1"
+      },
+      "scripts": {
+        "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"
+      },
+      "homepage": "https://github.com/zetxx/expose-sql-methods/blob/master/README.md",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/zetxx/expose-sql-methods.git"
+      }
+}
