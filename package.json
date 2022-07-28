@@ -1,16 +1,17 @@
 {
     "name": "expose-sql-methods",
     "author": {
-        "email": "zetxx@belogradchik.biz",
+        "email": "me@zetxx.eu",
         "name": "Elin Angelov",
         "url": "https://github.com/zetxx"
     },
     "dependencies": {
-      "mssql": "7.2.0"
+      "error": "^10.4.0",
+      "mssql": "8.1.2"
     },
     "devDependencies": {
         "tap": "*",
-        "semantic-release": "^17.0.1"
+        "semantic-release": "^19.0.3"
       },
       "scripts": {
         "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"

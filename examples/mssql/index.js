@@ -1,6 +1,7 @@
 const sql = require('mssql');
+const lib = require('../../lib/mssql');
 
-const query = (async() => {
+const init = (async() => {
     const {
         server,
         user,
@@ -17,13 +18,5 @@ const query = (async() => {
         database,
         options
     });
-    return async(q) => {
-        try {
-            return await cPool.request().query(q);
-        } catch (e) {
-            console.warn(q);
-            console.error(e);
-            throw e;
-        }
-    };
+    return cPool.request();
 });
