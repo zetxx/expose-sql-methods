@@ -1,5 +1,6 @@
 (async() => {
-    await require('../../lib/mssql')(
+    const methods = await require('../../lib/mssql')(
         require('../mssql.config.js')
     );
+    methods['abc']({arg1: 123});
 })();
