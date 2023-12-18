@@ -3,7 +3,7 @@ module.exports = {
         server: 'localhost',
         user: 'sa',
         password: '***',
-        database: 'mfactor',
+        database: 'some-test-example-mssql',
         pool: {
             max: 10,
             min: 0,
@@ -15,8 +15,7 @@ module.exports = {
         }
     },
     link: {
-        SP: {
-            schemas: ['a', 'b'] // schemas allowed
-        }
+        gluePrefix: '.',
+        schema: ['a', 'b'] // schemas allowed
     }
 };

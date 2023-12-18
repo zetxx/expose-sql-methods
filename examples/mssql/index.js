@@ -2,5 +2,9 @@
     const methods = await require('../../lib/mssql')(
         require('../mssql.config.js')
     );
-    methods['abc']({arg1: 123});
+    try {
+        await methods['dbo.Usp_InsertLesson']({ParLessonType: [{LessonId: 100, LessonName: 'example lesson'}]});
+    } catch (e) {
+        console.error(e);
+    }
 })();

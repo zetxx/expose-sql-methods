@@ -7,11 +7,11 @@
     },
     "dependencies": {
       "error": "^10.4.0",
-      "mssql": "8.1.2"
+      "mssql": "10.0.1"
     },
     "devDependencies": {
         "tap": "*",
-        "semantic-release": "^19.0.3"
+        "semantic-release": "^22.0.12"
       },
       "scripts": {
         "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"
