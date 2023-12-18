@@ -7,7 +7,16 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Mssql",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/examples/mssql/index.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Postgres",
             "skipFiles": [
                 "<node_internals>/**"
             ],

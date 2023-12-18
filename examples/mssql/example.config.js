@@ -3,7 +3,7 @@ module.exports = {
         server: 'localhost',
         user: 'sa',
         password: '***',
-        database: 'some-test-example-mssql',
+        database: 'some-test-example',
         pool: {
             max: 10,
             min: 0,
