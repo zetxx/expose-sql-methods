@@ -6,19 +6,20 @@
         "url": "https://github.com/zetxx"
     },
     "dependencies": {
-      "error": "^10.4.0",
-      "mssql": "10.0.1"
+        "error": "^10.4.0",
+        "mssql": "10.0.1"
     },
     "devDependencies": {
         "tap": "*",
         "semantic-release": "^22.0.12"
-      },
-      "scripts": {
+    },
+    "scripts": {
         "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"
-      },
-      "homepage": "https://github.com/zetxx/expose-sql-methods/blob/master/README.md",
-      "repository": {
+    },
+    "homepage": "https://github.com/zetxx/expose-sql-methods/blob/master/README.md",
+    "repository": {
         "type": "git",
         "url": "https://github.com/zetxx/expose-sql-methods.git"
-      }
+    },
+    "version": "1.0.4"
 }
