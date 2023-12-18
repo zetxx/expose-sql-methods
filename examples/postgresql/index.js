@@ -1,9 +1,9 @@
 (async() => {
-    const methods = await require('../../lib/mssql/index.js')(
-        require('../mssql.config.js')
+    const methods = await require('../../lib/postgresql')(
+        require('./config')
     );
     try {
-        await methods['dbo.Usp_InsertLesson']({ParLessonType: [{LessonId: 100, LessonName: 'example lesson'}]});
+        await methods['some-test-example/exsschema/fnLastTx"']({ParLessonType: [{LessonId: 100, LessonName: 'example lesson'}]});
     } catch (e) {
         console.error(e);
     }

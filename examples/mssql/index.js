@@ -1,6 +1,6 @@
 (async() => {
     const methods = await require('../../lib/mssql')(
-        require('../mssql.config.js')
+        require('./config')
     );
     try {
         await methods['dbo.Usp_InsertLesson']({ParLessonType: [{LessonId: 100, LessonName: 'example lesson'}]});
