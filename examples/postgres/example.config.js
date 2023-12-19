@@ -7,6 +7,6 @@ module.exports = {
     },
     link: {
         gluePrefix: '.',
-        schema: ['public'] // schemas allowed
+        schemas: ['public'] // schemas allowed
     }
 };

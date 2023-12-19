@@ -3,8 +3,8 @@
         const methods = await require('../../lib/postgres')(
             require('./config')
         );
-        if (methods['some-test-example/exsschema/fnLastTx"'])
-            await methods['some-test-example/exsschema/fnLastTx"']({ParLessonType: [{LessonId: 100, LessonName: 'example lesson'}]});
+        if (methods && methods['exsschema/fnLastTx'])
+            await methods['exsschema/fnLastTx']({pDevice: '34987a479f90'});
     } catch (e) {
         console.error(e);
     }

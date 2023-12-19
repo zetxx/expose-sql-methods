@@ -1,5 +1,13 @@
 SELECT
-    *
+    nspname "schema",
+	proname "name",
+	pronargs ninargs,
+    pronargdefaults nargdefaults,
+    prorettype rettype,
+    proargtypes inargtypes,
+    proallargtypes allargtypes,
+    proargnames argnames,
+    proargmodes argmodes
 FROM 
     pg_catalog.pg_namespace n
 JOIN 
