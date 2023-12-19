@@ -20,7 +20,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/examples/mssql/index.js"
+            "program": "${workspaceFolder}/examples/postgres/index.js"
         }
     ]
 }
