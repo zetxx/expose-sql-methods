@@ -7,13 +7,13 @@
     },
     "dependencies": {
         "error": "^10.4.0",
-        "mssql": "10.0.1",
-        "pg": "8.11.3"
+        "mssql": "11.0.1",
+        "pg": "^8.13.1"
     },
     "devDependencies": {
         "@biomejs/biome": "1.9.4",
         "tap": "*",
-        "semantic-release": "^22.0.12"
+        "semantic-release": "^24.2.1"
     },
     "scripts": {
         "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"
